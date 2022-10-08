@@ -6,29 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tic-Tac-Toe</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div class="container">
         <div class="header">
-            <h3>Tic Tac Toe</h3>
+            <h3 id="playerText">Tic Tac Toe</h3>
         </div>
-        <div class="select">           
-            <button type="button" class="X">X</button>
-            <button type="button" class="O">O</button>
-        </div>
+        <div class="statusText"></div>
         <div class="content">
             <div class="board">
-                <button type="button" class="one"></button>
-                <button type="button" class="two"></button>
-                <button type="button" class="three"></button>
-                <button type="button" class="four"></button>
-                <button type="button" class="five"></button>
-                <button type="button" class="six"></button>
-                <button type="button" class="seven"></button>
-                <button type="button" class="eight"></button>
-                <button type="button" class="nine"></button>
+                <button cellIndex ="0" class="box" id="one"></button>
+                <button cellIndex ="1" class="box" id="two"></button>
+                <button cellIndex ="2" class="box" id="three"></button>
+                <button cellIndex ="3" class="box" id="four"></button>
+                <button cellIndex ="4" class="box" id="five"></button>
+                <button cellIndex ="5" class="box" id="six"></button>
+                <button cellIndex ="6" class="box" id="seven"></button>
+                <button cellIndex ="7" class="box" id="eight"></button>
+                <button cellIndex ="8" class="box" id="nine"></button>
             </div>
-            <button class="restart">Restart</button>
+            <button class="restart" id="restart">Restart</button>
         </div>
         <div class="footer">
             <p>@OdinProject</p>

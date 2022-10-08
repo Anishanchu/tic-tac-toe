@@ -17,20 +17,13 @@
     font-size: 50px;
     border-bottom: solid rgb(172, 172, 172) 1px;
 }
-.select {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-    
-}
-.select button {
-    padding-left: 50px;
-    padding-right: 50px;
-    margin: 10px;
+
+.statusText{
+    grid-row: 2/3;
     font-size: 30px;
-    background-color: white;
-    color: blue;
-    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .content {
@@ -51,57 +44,58 @@
     height: 100px;
     width: 100px;
     background-color: #f1f5f9;
+    font-size: 50px;
 }
 
-.one{
+#one {
     border-top: none;
     border-left: none;
     border-right: solid black 2px;
     border-bottom: solid black 2px;
 }
-.two {
+#two {
     border-top: none;
     border-left: solid black 2px;
     border-right: solid black 2px;
     border-bottom: solid black 2px;
 }
-.three {
+#three {
     border-left: solid black 2px;
     border-bottom: solid black 2px;
     border-top: none;
     border-right: none; 
 }
-.four {
+#four {
     border-right: solid black 2px;
     border-bottom: solid black 2px;
     border-top: solid black 2px;
     border-left: none; 
 }
-.five{
+#five{
     border-right: solid black 2px;
     border-top: solid black 2px;
     border-left: solid black 2px;
     border-bottom: solid black 2px;
 }
-.six {
+#six {
     border-left: solid black 2px;
     border-bottom: solid black 2px;
     border-top: solid black 2px;
     border-right: none;
 }
-.seven {
+#seven {
     border-right: solid black 2px;
     border-top: solid black 2px;
     border-left: none;
     border-bottom: none;
 }
-.eight {
+#eight {
     border-right: solid black 2px;
     border-bottom: none;
     border-top: solid black 2px;
     border-left: solid black 2px; 
 }
-.nine {
+#nine {
     border-left: solid black 2px;
     border-top: solid black 2px;
     border-bottom: none;
@@ -117,6 +111,7 @@
 
 } 
 .footer {
+    grid-row: 4/5;
     display: flex;
     justify-content: center;
     padding-top: 20px;
